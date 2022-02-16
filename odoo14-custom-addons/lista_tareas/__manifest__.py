@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Enrique",
+    'name': "Lista de tareas",
 
     'summary': """
     Sencilla Lista de tareas""",
@@ -9,8 +9,8 @@
     Sencilla lista de tareas utilizadas para crear un nuevo módulo con un nuevo modelo de datos
     """,
 
-    'author': "Enrique Moran",
-    'website': "https://github.com/enriquemoranjobs",
+    'author': "Enrique",
+    'website': "https://apuntesfpinformatica.es",
     #Indicamos que es una aplicación
     'application': True,
 

@@ -9,7 +9,7 @@
       <field name="arch" type="xml">
         <tree>
           <field name="tarea"/>
-          <field name="prioridad"/>
+          <field name="prioridad" widget="percentpie"/>
           <field name="urgente"/>
           <field name="realizada"/>
         </tree>
@@ -42,26 +42,6 @@
 
     <menuitem name="Mostrar lista" id="lista_tareas.menu_1_list" parent="lista_tareas.menu_1"
               action="lista_tareas.action_window"/>
-
-
-  
-  <!-- menu categories -->
-
-    <menuitem name="Otras" id="lista_tareas.menu_1" parent="lista_tareas.menu_root"/>
-
-    <!-- actions -->
-
-    <menuitem name="Mostrar lista" id="lista_tareas.menu_1_list" parent="lista_tareas.menu_1"
-              action="lista_tareas.action_window"/>
-
-
-
-
-
-
-              
-
-              
 
   </data>
 </odoo>

@@ -4,7 +4,6 @@ from odoo import models, fields, api
 
 #Definimos el modelo de datos
 class lista_tareas(models.Model):
-    #Nombre y descripcion del modelo de datos
     _name = 'lista_tareas.lista_tareas'
     _description = 'lista_tareas.lista_tareas'
 
